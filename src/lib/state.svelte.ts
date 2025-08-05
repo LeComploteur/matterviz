@@ -44,7 +44,7 @@ let initial_system_mode: ThemeType = COLOR_THEMES.light
 
 // Safe theme initialization for test environments
 try {
-  if (typeof window !== `undefined` && globalThis.localStorage) {
+  if (typeof globalThis !== `undefined` && globalThis.localStorage) {
     initial_theme_mode = (localStorage.getItem(`matterviz-theme`) as ThemeMode) ||
       AUTO_THEME
   } else {
