@@ -1424,7 +1424,7 @@ export default [
     covalent_radius: 1.39,
   },
   {
-    name: `Iron`,
+    name: `Fer`,
     appearance: `lustrous metallic with a grayish tinge`,
     atomic_mass: 55.8452,
     category: `transition metal`,
